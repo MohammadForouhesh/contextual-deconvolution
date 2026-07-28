@@ -1,0 +1,535 @@
+{
+  "dataset": "favorita",
+  "gbm": "lgbm",
+  "n": 1667,
+  "gamma": 1.0,
+  "severities": [
+    "clean",
+    "flip0.2",
+    "flip0.5",
+    "storm0.3",
+    "storm0.6",
+    "drop1.0",
+    "shift2",
+    "shift5",
+    "wipe"
+  ],
+  "koop-ctrl": {
+    "rmsse": {
+      "clean": 0.8880136510044234,
+      "flip0.2": 0.8880136510044234,
+      "flip0.5": 0.8880136510044234,
+      "storm0.3": 0.8880136510044234,
+      "storm0.6": 0.8880136510044234,
+      "drop1.0": 0.8880136510044234,
+      "shift2": 0.8880136510044234,
+      "shift5": 0.8880136510044234,
+      "wipe": 0.8880136510044234
+    },
+    "mase": {
+      "clean": 0.8835816798259515,
+      "flip0.2": 0.8835816798259515,
+      "flip0.5": 0.8835816798259515,
+      "storm0.3": 0.8835816798259515,
+      "storm0.6": 0.8835816798259515,
+      "drop1.0": 0.8835816798259515,
+      "shift2": 0.8835816798259515,
+      "shift5": 0.8835816798259515,
+      "wipe": 0.8835816798259515
+    },
+    "rmse": {
+      "clean": 2.583798217753357,
+      "flip0.2": 2.583798217753357,
+      "flip0.5": 2.583798217753357,
+      "storm0.3": 2.583798217753357,
+      "storm0.6": 2.583798217753357,
+      "drop1.0": 2.583798217753357,
+      "shift2": 2.583798217753357,
+      "shift5": 2.583798217753357,
+      "wipe": 2.583798217753357
+    },
+    "wmape": {
+      "clean": 0.9044214066818685,
+      "flip0.2": 0.9044214066818685,
+      "flip0.5": 0.9044214066818685,
+      "storm0.3": 0.9044214066818685,
+      "storm0.6": 0.9044214066818685,
+      "drop1.0": 0.9044214066818685,
+      "shift2": 0.9044214066818685,
+      "shift5": 0.9044214066818685,
+      "wipe": 0.9044214066818685
+    },
+    "degradation_mean_eventful": {
+      "rmsse": {
+        "flip0.2": NaN,
+        "flip0.5": NaN,
+        "storm0.3": NaN,
+        "storm0.6": NaN,
+        "drop1.0": NaN,
+        "shift2": NaN,
+        "shift5": NaN,
+        "wipe": NaN
+      },
+      "mase": {
+        "flip0.2": NaN,
+        "flip0.5": NaN,
+        "storm0.3": NaN,
+        "storm0.6": NaN,
+        "drop1.0": NaN,
+        "shift2": NaN,
+        "shift5": NaN,
+        "wipe": NaN
+      },
+      "rmse": {
+        "flip0.2": NaN,
+        "flip0.5": NaN,
+        "storm0.3": NaN,
+        "storm0.6": NaN,
+        "drop1.0": NaN,
+        "shift2": NaN,
+        "shift5": NaN,
+        "wipe": NaN
+      },
+      "wmape": {
+        "flip0.2": NaN,
+        "flip0.5": NaN,
+        "storm0.3": NaN,
+        "storm0.6": NaN,
+        "drop1.0": NaN,
+        "shift2": NaN,
+        "shift5": NaN,
+        "wipe": NaN
+      }
+    },
+    "forecast_sensitivity": {
+      "flip0.2": NaN,
+      "flip0.5": NaN,
+      "storm0.3": NaN,
+      "storm0.6": NaN,
+      "drop1.0": NaN,
+      "shift2": NaN,
+      "shift5": NaN,
+      "wipe": NaN
+    }
+  },
+  "koop-edmd": {
+    "rmsse": {
+      "clean": 0.8880136510044234,
+      "flip0.2": 0.8880136510044234,
+      "flip0.5": 0.8880136510044234,
+      "storm0.3": 0.8880136510044234,
+      "storm0.6": 0.8880136510044234,
+      "drop1.0": 0.8880136510044234,
+      "shift2": 0.8880136510044234,
+      "shift5": 0.8880136510044234,
+      "wipe": 0.8880136510044234
+    },
+    "mase": {
+      "clean": 0.8835816798259515,
+      "flip0.2": 0.8835816798259515,
+      "flip0.5": 0.8835816798259515,
+      "storm0.3": 0.8835816798259515,
+      "storm0.6": 0.8835816798259515,
+      "drop1.0": 0.8835816798259515,
+      "shift2": 0.8835816798259515,
+      "shift5": 0.8835816798259515,
+      "wipe": 0.8835816798259515
+    },
+    "rmse": {
+      "clean": 2.583798217753357,
+      "flip0.2": 2.583798217753357,
+      "flip0.5": 2.583798217753357,
+      "storm0.3": 2.583798217753357,
+      "storm0.6": 2.583798217753357,
+      "drop1.0": 2.583798217753357,
+      "shift2": 2.583798217753357,
+      "shift5": 2.583798217753357,
+      "wipe": 2.583798217753357
+    },
+    "wmape": {
+      "clean": 0.9044214066818685,
+      "flip0.2": 0.9044214066818685,
+      "flip0.5": 0.9044214066818685,
+      "storm0.3": 0.9044214066818685,
+      "storm0.6": 0.9044214066818685,
+      "drop1.0": 0.9044214066818685,
+      "shift2": 0.9044214066818685,
+      "shift5": 0.9044214066818685,
+      "wipe": 0.9044214066818685
+    },
+    "degradation_mean_eventful": {
+      "rmsse": {
+        "flip0.2": NaN,
+        "flip0.5": NaN,
+        "storm0.3": NaN,
+        "storm0.6": NaN,
+        "drop1.0": NaN,
+        "shift2": NaN,
+        "shift5": NaN,
+        "wipe": NaN
+      },
+      "mase": {
+        "flip0.2": NaN,
+        "flip0.5": NaN,
+        "storm0.3": NaN,
+        "storm0.6": NaN,
+        "drop1.0": NaN,
+        "shift2": NaN,
+        "shift5": NaN,
+        "wipe": NaN
+      },
+      "rmse": {
+        "flip0.2": NaN,
+        "flip0.5": NaN,
+        "storm0.3": NaN,
+        "storm0.6": NaN,
+        "drop1.0": NaN,
+        "shift2": NaN,
+        "shift5": NaN,
+        "wipe": NaN
+      },
+      "wmape": {
+        "flip0.2": NaN,
+        "flip0.5": NaN,
+        "storm0.3": NaN,
+        "storm0.6": NaN,
+        "drop1.0": NaN,
+        "shift2": NaN,
+        "shift5": NaN,
+        "wipe": NaN
+      }
+    },
+    "forecast_sensitivity": {
+      "flip0.2": NaN,
+      "flip0.5": NaN,
+      "storm0.3": NaN,
+      "storm0.6": NaN,
+      "drop1.0": NaN,
+      "shift2": NaN,
+      "shift5": NaN,
+      "wipe": NaN
+    }
+  },
+  "doe": {
+    "rmsse": {
+      "clean": 0.8880136510044234,
+      "flip0.2": 0.8880136510044234,
+      "flip0.5": 0.8880136510044234,
+      "storm0.3": 0.8880136510044234,
+      "storm0.6": 0.8880136510044234,
+      "drop1.0": 0.8880136510044234,
+      "shift2": 0.8880136510044234,
+      "shift5": 0.8880136510044234,
+      "wipe": 0.8880136510044234
+    },
+    "mase": {
+      "clean": 0.8835816798259515,
+      "flip0.2": 0.8835816798259515,
+      "flip0.5": 0.8835816798259515,
+      "storm0.3": 0.8835816798259515,
+      "storm0.6": 0.8835816798259515,
+      "drop1.0": 0.8835816798259515,
+      "shift2": 0.8835816798259515,
+      "shift5": 0.8835816798259515,
+      "wipe": 0.8835816798259515
+    },
+    "rmse": {
+      "clean": 2.583798217753357,
+      "flip0.2": 2.583798217753357,
+      "flip0.5": 2.583798217753357,
+      "storm0.3": 2.583798217753357,
+      "storm0.6": 2.583798217753357,
+      "drop1.0": 2.583798217753357,
+      "shift2": 2.583798217753357,
+      "shift5": 2.583798217753357,
+      "wipe": 2.583798217753357
+    },
+    "wmape": {
+      "clean": 0.9044214066818685,
+      "flip0.2": 0.9044214066818685,
+      "flip0.5": 0.9044214066818685,
+      "storm0.3": 0.9044214066818685,
+      "storm0.6": 0.9044214066818685,
+      "drop1.0": 0.9044214066818685,
+      "shift2": 0.9044214066818685,
+      "shift5": 0.9044214066818685,
+      "wipe": 0.9044214066818685
+    },
+    "degradation_mean_eventful": {
+      "rmsse": {
+        "flip0.2": NaN,
+        "flip0.5": NaN,
+        "storm0.3": NaN,
+        "storm0.6": NaN,
+        "drop1.0": NaN,
+        "shift2": NaN,
+        "shift5": NaN,
+        "wipe": NaN
+      },
+      "mase": {
+        "flip0.2": NaN,
+        "flip0.5": NaN,
+        "storm0.3": NaN,
+        "storm0.6": NaN,
+        "drop1.0": NaN,
+        "shift2": NaN,
+        "shift5": NaN,
+        "wipe": NaN
+      },
+      "rmse": {
+        "flip0.2": NaN,
+        "flip0.5": NaN,
+        "storm0.3": NaN,
+        "storm0.6": NaN,
+        "drop1.0": NaN,
+        "shift2": NaN,
+        "shift5": NaN,
+        "wipe": NaN
+      },
+      "wmape": {
+        "flip0.2": NaN,
+        "flip0.5": NaN,
+        "storm0.3": NaN,
+        "storm0.6": NaN,
+        "drop1.0": NaN,
+        "shift2": NaN,
+        "shift5": NaN,
+        "wipe": NaN
+      }
+    },
+    "forecast_sensitivity": {
+      "flip0.2": NaN,
+      "flip0.5": NaN,
+      "storm0.3": NaN,
+      "storm0.6": NaN,
+      "drop1.0": NaN,
+      "shift2": NaN,
+      "shift5": NaN,
+      "wipe": NaN
+    }
+  },
+  "lgbm": {
+    "rmsse": {
+      "clean": 0.7786245148474072,
+      "flip0.2": 0.7786245148474072,
+      "flip0.5": 0.7786245148474072,
+      "storm0.3": 0.7786245148474072,
+      "storm0.6": 0.7786245148474072,
+      "drop1.0": 0.7786245148474072,
+      "shift2": 0.7786245148474072,
+      "shift5": 0.7786245148474072,
+      "wipe": 0.7786245148474072
+    },
+    "mase": {
+      "clean": 0.8418784597554352,
+      "flip0.2": 0.8418784597554352,
+      "flip0.5": 0.8418784597554352,
+      "storm0.3": 0.8418784597554352,
+      "storm0.6": 0.8418784597554352,
+      "drop1.0": 0.8418784597554352,
+      "shift2": 0.8418784597554352,
+      "shift5": 0.8418784597554352,
+      "wipe": 0.8418784597554352
+    },
+    "rmse": {
+      "clean": 2.2483508250010247,
+      "flip0.2": 2.2483508250010247,
+      "flip0.5": 2.2483508250010247,
+      "storm0.3": 2.2483508250010247,
+      "storm0.6": 2.2483508250010247,
+      "drop1.0": 2.2483508250010247,
+      "shift2": 2.2483508250010247,
+      "shift5": 2.2483508250010247,
+      "wipe": 2.2483508250010247
+    },
+    "wmape": {
+      "clean": 0.769667959361662,
+      "flip0.2": 0.769667959361662,
+      "flip0.5": 0.769667959361662,
+      "storm0.3": 0.769667959361662,
+      "storm0.6": 0.769667959361662,
+      "drop1.0": 0.769667959361662,
+      "shift2": 0.769667959361662,
+      "shift5": 0.769667959361662,
+      "wipe": 0.769667959361662
+    },
+    "degradation_mean_eventful": {
+      "rmsse": {
+        "flip0.2": NaN,
+        "flip0.5": NaN,
+        "storm0.3": NaN,
+        "storm0.6": NaN,
+        "drop1.0": NaN,
+        "shift2": NaN,
+        "shift5": NaN,
+        "wipe": NaN
+      },
+      "mase": {
+        "flip0.2": NaN,
+        "flip0.5": NaN,
+        "storm0.3": NaN,
+        "storm0.6": NaN,
+        "drop1.0": NaN,
+        "shift2": NaN,
+        "shift5": NaN,
+        "wipe": NaN
+      },
+      "rmse": {
+        "flip0.2": NaN,
+        "flip0.5": NaN,
+        "storm0.3": NaN,
+        "storm0.6": NaN,
+        "drop1.0": NaN,
+        "shift2": NaN,
+        "shift5": NaN,
+        "wipe": NaN
+      },
+      "wmape": {
+        "flip0.2": NaN,
+        "flip0.5": NaN,
+        "storm0.3": NaN,
+        "storm0.6": NaN,
+        "drop1.0": NaN,
+        "shift2": NaN,
+        "shift5": NaN,
+        "wipe": NaN
+      }
+    },
+    "forecast_sensitivity": {
+      "flip0.2": NaN,
+      "flip0.5": NaN,
+      "storm0.3": NaN,
+      "storm0.6": NaN,
+      "drop1.0": NaN,
+      "shift2": NaN,
+      "shift5": NaN,
+      "wipe": NaN
+    }
+  },
+  "ctrl_vs_edmd": {
+    "flip0.2": {
+      "n": 0,
+      "win": null,
+      "p": null
+    },
+    "flip0.5": {
+      "n": 0,
+      "win": null,
+      "p": null
+    },
+    "storm0.3": {
+      "n": 0,
+      "win": null,
+      "p": null
+    },
+    "storm0.6": {
+      "n": 0,
+      "win": null,
+      "p": null
+    },
+    "drop1.0": {
+      "n": 0,
+      "win": null,
+      "p": null
+    },
+    "shift2": {
+      "n": 0,
+      "win": null,
+      "p": null
+    },
+    "shift5": {
+      "n": 0,
+      "win": null,
+      "p": null
+    },
+    "wipe": {
+      "n": 0,
+      "win": null,
+      "p": null
+    }
+  },
+  "ctrl_vs_gbm": {
+    "flip0.2": {
+      "n": 0,
+      "win": null,
+      "p": null
+    },
+    "flip0.5": {
+      "n": 0,
+      "win": null,
+      "p": null
+    },
+    "storm0.3": {
+      "n": 0,
+      "win": null,
+      "p": null
+    },
+    "storm0.6": {
+      "n": 0,
+      "win": null,
+      "p": null
+    },
+    "drop1.0": {
+      "n": 0,
+      "win": null,
+      "p": null
+    },
+    "shift2": {
+      "n": 0,
+      "win": null,
+      "p": null
+    },
+    "shift5": {
+      "n": 0,
+      "win": null,
+      "p": null
+    },
+    "wipe": {
+      "n": 0,
+      "win": null,
+      "p": null
+    }
+  },
+  "doe_vs_gbm": {
+    "flip0.2": {
+      "n": 0,
+      "win": null,
+      "p": null
+    },
+    "flip0.5": {
+      "n": 0,
+      "win": null,
+      "p": null
+    },
+    "storm0.3": {
+      "n": 0,
+      "win": null,
+      "p": null
+    },
+    "storm0.6": {
+      "n": 0,
+      "win": null,
+      "p": null
+    },
+    "drop1.0": {
+      "n": 0,
+      "win": null,
+      "p": null
+    },
+    "shift2": {
+      "n": 0,
+      "win": null,
+      "p": null
+    },
+    "shift5": {
+      "n": 0,
+      "win": null,
+      "p": null
+    },
+    "wipe": {
+      "n": 0,
+      "win": null,
+      "p": null
+    }
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "method": "DeepAR",
+    "wmape": 1.042430713500072,
+    "variance_ratio": 0.011146158816820927,
+    "rmse": 1.1985631016832603,
+    "inventory_cost": 5.865581797332452
+  },
+  {
+    "method": "N-BEATS",
+    "wmape": 0.9971536317003663,
+    "variance_ratio": 0.0639455998647602,
+    "rmse": 1.1205832376536082,
+    "inventory_cost": 5.930059549456045
+  },
+  {
+    "method": "Ours (Naive)",
+    "wmape": 0.969916181127879,
+    "variance_ratio": 0.002328140722943569,
+    "rmse": 1.4224484552374321,
+    "inventory_cost": 7.526102654258021
+  },
+  {
+    "method": "PatchTST",
+    "wmape": 1.0117609348266223,
+    "variance_ratio": 0.08224419782274824,
+    "rmse": 1.1541288001547052,
+    "inventory_cost": 6.073034349189525
+  },
+  {
+    "method": "Prophet",
+    "wmape": 1.095853711379788,
+    "variance_ratio": 0.04634544666891538,
+    "rmse": 1.1669089505973407,
+    "inventory_cost": 6.166509994134488
+  },
+  {
+    "method": "XGBoost",
+    "wmape": 1.039913257563228,
+    "variance_ratio": 0.3703153650299737,
+    "rmse": 1.1701096288374913,
+    "inventory_cost": 5.631114666483232
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "inventory_cost_cd_mean": 7.879038496702086,
+  "inventory_cost_cd_std": 11.596294904433027,
+  "inventory_cost_xgb_mean": 7.695396100572518,
+  "inventory_cost_xgb_std": 11.144121933210206,
+  "p_value": 0.6161610042276657,
+  "cohens_d": 0.05028865043023912,
+  "cd_win_rate": 0.41
+}

@@ -1,0 +1,5 @@
+category,n_skus,energy_at_14,n_e95,n_e99,L10
+foods,249,0.999,0,0,0
+household,157,0.983,6,25,0
+hobbies,94,0.944,16,27,10
+global,500,0.995,0,7,0

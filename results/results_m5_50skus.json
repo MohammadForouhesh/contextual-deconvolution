@@ -1,0 +1,29 @@
+[
+  {
+    "method": "Ours (Naive)",
+    "wmape": 1.0700748634001043,
+    "variance_ratio": 0.003599357656143143,
+    "rmse": 2.0658643740256584,
+    "inventory_cost": 9.646621193245997,
+    "spectral_flatness": 0.13558222400013326,
+    "max_drawdown": 28.301490150522383
+  },
+  {
+    "method": "Prophet",
+    "wmape": 1.5318396591681287,
+    "variance_ratio": 0.03195299412683,
+    "rmse": 1.816197007430152,
+    "inventory_cost": 8.043431772774502,
+    "spectral_flatness": 0.005052389789136597,
+    "max_drawdown": 9.647182812325509
+  },
+  {
+    "method": "XGBoost",
+    "wmape": 1.8260148396751625,
+    "variance_ratio": 0.7026932355819204,
+    "rmse": 2.1350304395094866,
+    "inventory_cost": 9.305742745077504,
+    "spectral_flatness": 0.18575947389006614,
+    "max_drawdown": 10.12353135725949
+  }
+]

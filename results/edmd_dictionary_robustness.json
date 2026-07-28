@@ -1,0 +1,69 @@
+{
+  "global": {
+    "linear": {
+      "dim": 16,
+      "rho": 1.0,
+      "alpha": 1.0,
+      "omega": 1.0508,
+      "departure_omega_minus_alpha": 0.0508,
+      "henrici": 0.0934,
+      "max_transient_factor": 2.3
+    },
+    "quadratic (deg<=2)": {
+      "dim": 31,
+      "rho": 1.0,
+      "alpha": 1.0,
+      "omega": 1.561,
+      "departure_omega_minus_alpha": 0.561,
+      "henrici": 0.1566,
+      "max_transient_factor": 11.74
+    },
+    "full-quadratic+cross": {
+      "dim": 136,
+      "rho": 1.0,
+      "alpha": 1.0,
+      "omega": 1.8273,
+      "departure_omega_minus_alpha": 0.8273,
+      "henrici": 0.0858,
+      "max_transient_factor": 14.98
+    },
+    "cubic (deg<=3)": {
+      "dim": 46,
+      "rho": 1.0,
+      "alpha": 1.0,
+      "omega": 39.326,
+      "departure_omega_minus_alpha": 38.326,
+      "henrici": 1.4039,
+      "max_transient_factor": 335.75
+    }
+  },
+  "categories": {
+    "foods": {
+      "dim": 31,
+      "rho": 1.0,
+      "alpha": 1.0,
+      "omega": 1.3969,
+      "departure_omega_minus_alpha": 0.3969,
+      "henrici": 0.1217,
+      "max_transient_factor": 6.16
+    },
+    "household": {
+      "dim": 31,
+      "rho": 1.0,
+      "alpha": 1.0,
+      "omega": 1.7677,
+      "departure_omega_minus_alpha": 0.7677,
+      "henrici": 0.2785,
+      "max_transient_factor": 13.28
+    },
+    "hobbies": {
+      "dim": 31,
+      "rho": 1.0,
+      "alpha": 1.0,
+      "omega": 2.8354,
+      "departure_omega_minus_alpha": 1.8355,
+      "henrici": 0.5812,
+      "max_transient_factor": 24.46
+    }
+  }
+}

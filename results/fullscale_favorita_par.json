@@ -1,0 +1,452 @@
+[
+  {
+    "dictionary": "delay14-quad",
+    "dim": 31,
+    "pool": "category",
+    "gamma_star_per_fold": [
+      {
+        "DELI": 3.0,
+        "GROCERY I": 0.1,
+        "BEVERAGES": 0.01,
+        "HOME CARE": 0.1,
+        "BREAD/BAKERY": 0.3,
+        "DAIRY": 0.0,
+        "PREPARED FOODS": 3.0,
+        "CLEANING": 0.0,
+        "LAWN AND GARDEN": 1.0,
+        "LIQUOR,WINE,BEER": 0.0,
+        "FROZEN FOODS": 0.0,
+        "PRODUCE": 0.03,
+        "POULTRY": 3.0,
+        "BEAUTY": 0.01,
+        "AUTOMOTIVE": 3.0,
+        "PERSONAL CARE": 0.03,
+        "EGGS": 0.01,
+        "SEAFOOD": 0.0,
+        "HOME AND KITCHEN I": 0.1,
+        "SCHOOL AND OFFICE SUPPLIES": 0.1,
+        "HOME APPLIANCES": 1.0,
+        "CELEBRATION": 0.3,
+        "MEATS": 0.1,
+        "PET SUPPLIES": 3.0,
+        "HARDWARE": 0.1,
+        "LINGERIE": 0.03,
+        "PLAYERS AND ELECTRONICS": 0.01,
+        "HOME AND KITCHEN II": 1.0,
+        "LADIESWEAR": 0.01,
+        "MAGAZINES": 1.0,
+        "GROCERY II": 0.03
+      },
+      {
+        "DELI": 0.0,
+        "GROCERY I": 0.1,
+        "BEVERAGES": 0.01,
+        "HOME CARE": 0.03,
+        "BREAD/BAKERY": 0.3,
+        "DAIRY": 3.0,
+        "PREPARED FOODS": 0.1,
+        "CLEANING": 0.0,
+        "LAWN AND GARDEN": 0.0,
+        "LIQUOR,WINE,BEER": 0.0,
+        "FROZEN FOODS": 0.3,
+        "PRODUCE": 0.01,
+        "POULTRY": 3.0,
+        "BEAUTY": 0.01,
+        "AUTOMOTIVE": 3.0,
+        "PERSONAL CARE": 0.3,
+        "EGGS": 0.03,
+        "SEAFOOD": 0.0,
+        "HOME AND KITCHEN I": 3.0,
+        "SCHOOL AND OFFICE SUPPLIES": 0.1,
+        "HOME APPLIANCES": 0.1,
+        "CELEBRATION": 0.3,
+        "MEATS": 0.1,
+        "PET SUPPLIES": 1.0,
+        "HARDWARE": 0.3,
+        "LINGERIE": 3.0,
+        "PLAYERS AND ELECTRONICS": 0.01,
+        "HOME AND KITCHEN II": 0.0,
+        "LADIESWEAR": 0.03,
+        "MAGAZINES": 0.01,
+        "GROCERY II": 0.3
+      },
+      {
+        "DELI": 0.01,
+        "GROCERY I": 0.01,
+        "BEVERAGES": 0.01,
+        "HOME CARE": 0.03,
+        "BREAD/BAKERY": 0.0,
+        "DAIRY": 3.0,
+        "PREPARED FOODS": 3.0,
+        "CLEANING": 0.0,
+        "LAWN AND GARDEN": 0.01,
+        "LIQUOR,WINE,BEER": 0.3,
+        "FROZEN FOODS": 0.1,
+        "PRODUCE": 0.01,
+        "POULTRY": 1.0,
+        "BEAUTY": 0.01,
+        "AUTOMOTIVE": 1.0,
+        "PERSONAL CARE": 1.0,
+        "EGGS": 3.0,
+        "SEAFOOD": 0.0,
+        "HOME AND KITCHEN I": 0.03,
+        "SCHOOL AND OFFICE SUPPLIES": 0.3,
+        "HOME APPLIANCES": 0.1,
+        "CELEBRATION": 0.3,
+        "MEATS": 0.1,
+        "PET SUPPLIES": 3.0,
+        "HARDWARE": 0.1,
+        "LINGERIE": 1.0,
+        "PLAYERS AND ELECTRONICS": 0.03,
+        "HOME AND KITCHEN II": 0.1,
+        "LADIESWEAR": 0.3,
+        "MAGAZINES": 0.03,
+        "GROCERY II": 3.0
+      }
+    ],
+    "folds": 3,
+    "n_pairs": 5496,
+    "ctrl": {
+      "vr": 0.0031158362259750554,
+      "wmape": 0.9823246487914986,
+      "rmse": 3.0825785007600084,
+      "mae": 2.189385015278324,
+      "mase": 1.019897044385666,
+      "rmsse": 1.0189811987814268,
+      "ordvar": -0.9799181739455805,
+      "inventory_cost": 16.868169720630632,
+      "safety_stock": 0.11844226335675165,
+      "spectral_flatness": 0.10561904087642116,
+      "max_drawdown": 53.14024480862547,
+      "std_ratio": 0.055775241687647165,
+      "multistep14": 0.5333949700935114,
+      "corruption": {
+        "flip0.3": {
+          "vr_corrupt": 0.00999044252270816,
+          "degrade_pct": 220.63432067064412
+        },
+        "shift3": {
+          "vr_corrupt": 0.0031244391065422704,
+          "degrade_pct": 0.27610173264178894
+        },
+        "shift-3": {
+          "vr_corrupt": 0.002752879124011726,
+          "degrade_pct": -11.648782514617634
+        }
+      }
+    },
+    "edmd": {
+      "vr": 0.006727331319183877,
+      "wmape": 0.9437774748179968,
+      "rmse": 2.9890827508429645,
+      "mae": 2.143896318730477,
+      "mase": 1.0066954489814606,
+      "rmsse": 0.994956602458071,
+      "ordvar": -0.9176252268468679,
+      "inventory_cost": 16.454680023786366,
+      "safety_stock": 0.18094877315767366,
+      "spectral_flatness": 0.06379880344257705,
+      "max_drawdown": 49.58851414922391,
+      "std_ratio": 0.0819107289871803,
+      "multistep14": 0.5072481735998836,
+      "corruption": {
+        "flip0.3": {
+          "vr_corrupt": 0.014797534638303172,
+          "degrade_pct": 119.96141912160401
+        },
+        "shift3": {
+          "vr_corrupt": 0.0067332130280488645,
+          "degrade_pct": 0.08743003297481212
+        },
+        "shift-3": {
+          "vr_corrupt": 0.0063996316488348776,
+          "degrade_pct": -4.871168165938828
+        }
+      }
+    },
+    "doe": {
+      "vr": 0.007046421190038117,
+      "wmape": 0.9395292767791373,
+      "rmse": 2.9966525618885926,
+      "mae": 2.1330555038626198,
+      "mase": 1.00580983080381,
+      "rmsse": 0.9915268344947615,
+      "ordvar": -0.9044589838278534,
+      "inventory_cost": 16.316027780027433,
+      "safety_stock": 0.1976828883743149,
+      "spectral_flatness": 0.05643328007980655,
+      "max_drawdown": 48.87897736817148,
+      "std_ratio": 0.08384949077905118,
+      "multistep14": NaN,
+      "corruption": {
+        "flip0.3": {
+          "vr_corrupt": 0.01149378843642548,
+          "degrade_pct": 63.115253762041554
+        },
+        "shift3": {
+          "vr_corrupt": 0.007040174714237427,
+          "degrade_pct": -0.08864748140582826
+        },
+        "shift-3": {
+          "vr_corrupt": 0.006838418964556579,
+          "degrade_pct": -2.9518842310584352
+        }
+      }
+    },
+    "ctrl_vs_edmd_vr": {
+      "n": 5496,
+      "win": 0.6792212518195051,
+      "p": 0.0,
+      "median_diff": -0.0009722052376588412,
+      "ci": [
+        -0.00108530530550302,
+        -0.0008435171390935274
+      ]
+    },
+    "ctrl_vs_doe_vr": {
+      "n": 5496,
+      "win": 0.7465429403202329,
+      "p": 0.0,
+      "median_diff": -0.0013682475016042865,
+      "ci": [
+        -0.0015274415120856612,
+        -0.0012382171312514765
+      ]
+    },
+    "ctrl_vs_doe_wmape": {
+      "n": 5496,
+      "win": 0.3653566229985444,
+      "p": 1.73638621275913e-49,
+      "median_diff": 0.006194422605606376,
+      "ci": [
+        0.005340806695384735,
+        0.006928910677117382
+      ]
+    }
+  },
+  {
+    "dictionary": "delay28-quad",
+    "dim": 59,
+    "pool": "category",
+    "gamma_star_per_fold": [
+      {
+        "DELI": 3.0,
+        "GROCERY I": 0.3,
+        "BEVERAGES": 3.0,
+        "HOME CARE": 3.0,
+        "BREAD/BAKERY": 1.0,
+        "DAIRY": 0.03,
+        "PREPARED FOODS": 0.03,
+        "CLEANING": 0.01,
+        "LAWN AND GARDEN": 0.01,
+        "LIQUOR,WINE,BEER": 1.0,
+        "FROZEN FOODS": 0.0,
+        "PRODUCE": 1.0,
+        "POULTRY": 0.1,
+        "BEAUTY": 0.01,
+        "AUTOMOTIVE": 3.0,
+        "PERSONAL CARE": 0.03,
+        "EGGS": 0.01,
+        "SEAFOOD": 0.01,
+        "HOME AND KITCHEN I": 0.03,
+        "SCHOOL AND OFFICE SUPPLIES": 0.3,
+        "HOME APPLIANCES": 1.0,
+        "CELEBRATION": 3.0,
+        "MEATS": 0.1,
+        "PET SUPPLIES": 0.1,
+        "HARDWARE": 0.3,
+        "LINGERIE": 3.0,
+        "PLAYERS AND ELECTRONICS": 0.03,
+        "HOME AND KITCHEN II": 3.0,
+        "LADIESWEAR": 0.01,
+        "MAGAZINES": 3.0,
+        "GROCERY II": 0.1
+      },
+      {
+        "DELI": 0.0,
+        "GROCERY I": 3.0,
+        "BEVERAGES": 0.3,
+        "HOME CARE": 3.0,
+        "BREAD/BAKERY": 0.01,
+        "DAIRY": 0.0,
+        "PREPARED FOODS": 0.01,
+        "CLEANING": 0.0,
+        "LAWN AND GARDEN": 0.0,
+        "LIQUOR,WINE,BEER": 0.0,
+        "FROZEN FOODS": 0.0,
+        "PRODUCE": 0.01,
+        "POULTRY": 0.3,
+        "BEAUTY": 0.01,
+        "AUTOMOTIVE": 3.0,
+        "PERSONAL CARE": 0.1,
+        "EGGS": 0.03,
+        "SEAFOOD": 0.1,
+        "HOME AND KITCHEN I": 0.0,
+        "SCHOOL AND OFFICE SUPPLIES": 3.0,
+        "HOME APPLIANCES": 1.0,
+        "CELEBRATION": 3.0,
+        "MEATS": 0.1,
+        "PET SUPPLIES": 0.3,
+        "HARDWARE": 0.3,
+        "LINGERIE": 1.0,
+        "PLAYERS AND ELECTRONICS": 0.03,
+        "HOME AND KITCHEN II": 0.0,
+        "LADIESWEAR": 0.1,
+        "MAGAZINES": 0.0,
+        "GROCERY II": 0.1
+      },
+      {
+        "DELI": 0.03,
+        "GROCERY I": 1.0,
+        "BEVERAGES": 0.01,
+        "HOME CARE": 0.01,
+        "BREAD/BAKERY": 3.0,
+        "DAIRY": 0.0,
+        "PREPARED FOODS": 3.0,
+        "CLEANING": 0.0,
+        "LAWN AND GARDEN": 0.01,
+        "LIQUOR,WINE,BEER": 0.0,
+        "FROZEN FOODS": 1.0,
+        "PRODUCE": 0.01,
+        "POULTRY": 0.1,
+        "BEAUTY": 0.01,
+        "AUTOMOTIVE": 3.0,
+        "PERSONAL CARE": 0.1,
+        "EGGS": 0.0,
+        "SEAFOOD": 0.01,
+        "HOME AND KITCHEN I": 1.0,
+        "SCHOOL AND OFFICE SUPPLIES": 0.03,
+        "HOME APPLIANCES": 1.0,
+        "CELEBRATION": 0.3,
+        "MEATS": 0.01,
+        "PET SUPPLIES": 0.0,
+        "HARDWARE": 0.3,
+        "LINGERIE": 0.0,
+        "PLAYERS AND ELECTRONICS": 0.03,
+        "HOME AND KITCHEN II": 0.3,
+        "LADIESWEAR": 1.0,
+        "MAGAZINES": 1.0,
+        "GROCERY II": 0.1
+      }
+    ],
+    "folds": 3,
+    "n_pairs": 5496,
+    "ctrl": {
+      "vr": 0.0038494483129096237,
+      "wmape": 0.96491800641364,
+      "rmse": 3.059239525805375,
+      "mae": 2.175897161584869,
+      "mase": 1.0174079093212605,
+      "rmsse": 1.0167648377606857,
+      "ordvar": -0.9651943476560173,
+      "inventory_cost": 16.86410466925006,
+      "safety_stock": 0.1255720400292337,
+      "spectral_flatness": 0.08946848632843218,
+      "max_drawdown": 52.852907843640864,
+      "std_ratio": 0.06191384310689474,
+      "multistep14": 0.6016467336561233,
+      "corruption": {
+        "flip0.3": {
+          "vr_corrupt": 0.011614474580855457,
+          "degrade_pct": 201.7178468074594
+        },
+        "shift3": {
+          "vr_corrupt": 0.0039107698564315035,
+          "degrade_pct": 1.5929952192442227
+        },
+        "shift-3": {
+          "vr_corrupt": 0.00353914592479346,
+          "degrade_pct": -8.060955292371938
+        }
+      }
+    },
+    "edmd": {
+      "vr": 0.006864231890787732,
+      "wmape": 0.9433006199912797,
+      "rmse": 2.9899179482106124,
+      "mae": 2.144033144914714,
+      "mase": 1.0087184641786895,
+      "rmsse": 0.9943921235111504,
+      "ordvar": -0.9150053476479476,
+      "inventory_cost": 16.40649754235485,
+      "safety_stock": 0.18218817718370311,
+      "spectral_flatness": 0.06351459263367426,
+      "max_drawdown": 49.5278389593139,
+      "std_ratio": 0.08265390095309609,
+      "multistep14": 0.4980669101680458,
+      "corruption": {
+        "flip0.3": {
+          "vr_corrupt": 0.014869906847686073,
+          "degrade_pct": 116.62883652509083
+        },
+        "shift3": {
+          "vr_corrupt": 0.006900857141631124,
+          "degrade_pct": 0.533566553264034
+        },
+        "shift-3": {
+          "vr_corrupt": 0.006541067257755944,
+          "degrade_pct": -4.70794971810319
+        }
+      }
+    },
+    "doe": {
+      "vr": 0.007046421190038117,
+      "wmape": 0.9395292767791373,
+      "rmse": 2.9966525618885926,
+      "mae": 2.1330555038626198,
+      "mase": 1.00580983080381,
+      "rmsse": 0.9915268344947615,
+      "ordvar": -0.9044589838278534,
+      "inventory_cost": 16.316027780027433,
+      "safety_stock": 0.1976828883743149,
+      "spectral_flatness": 0.05643328007980655,
+      "max_drawdown": 48.87897736817148,
+      "std_ratio": 0.08384949077905118,
+      "multistep14": NaN,
+      "corruption": {
+        "flip0.3": {
+          "vr_corrupt": 0.01149378843642548,
+          "degrade_pct": 63.115253762041554
+        },
+        "shift3": {
+          "vr_corrupt": 0.007040174714237427,
+          "degrade_pct": -0.08864748140582826
+        },
+        "shift-3": {
+          "vr_corrupt": 0.006838418964556579,
+          "degrade_pct": -2.9518842310584352
+        }
+      }
+    },
+    "ctrl_vs_edmd_vr": {
+      "n": 5496,
+      "win": 0.6697598253275109,
+      "p": 0.0,
+      "median_diff": -0.0010618588898609642,
+      "ci": [
+        -0.001192287080050218,
+        -0.0009109088770258704
+      ]
+    },
+    "ctrl_vs_doe_vr": {
+      "n": 5496,
+      "win": 0.7292576419213974,
+      "p": 0.0,
+      "median_diff": -0.0013414811270094063,
+      "ci": [
+        -0.0014889374902787563,
+        -0.0011584485510538816
+      ]
+    },
+    "ctrl_vs_doe_wmape": {
+      "n": 5496,
+      "win": 0.36171761280931586,
+      "p": 1.4918794542230947e-53,
+      "median_diff": 0.006829201151575703,
+      "ci": [
+        0.005844546989008492,
+        0.008085856973692344
+      ]
+    }
+  }
+]

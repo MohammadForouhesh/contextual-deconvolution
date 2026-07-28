@@ -1,0 +1,5 @@
+,wmape,wmape,wmape,variance_ratio,variance_ratio,variance_ratio,rmse,rmse,rmse,mae,mae,mae,inventory_cost,inventory_cost,inventory_cost,safety_stock,safety_stock,safety_stock,spectral_flatness,spectral_flatness,spectral_flatness,max_drawdown,max_drawdown,max_drawdown,mase,mase,mase,rmsse,rmsse,rmsse,order_variance,order_variance,order_variance
+,mean,median,std,mean,median,std,mean,median,std,mean,median,std,mean,median,std,mean,median,std,mean,median,std,mean,median,std,mean,median,std,mean,median,std,mean,median,std
+method,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CD,1.1487,1.0474,0.6352,0.0374,0.0022,0.1731,1.5698,0.8783,2.7045,1.0987,0.5458,2.2311,8.9527,3.6225,21.1771,0.107,0.0438,0.2742,0.1242,0.0424,0.1633,25.322,9.9798,58.3278,,,,,,,,,
+PatchTST,1.313,1.2327,0.7783,0.1046,0.0564,0.18,1.2637,0.837,1.633,0.9325,0.6405,1.1706,7.0662,3.4156,14.9618,0.3974,0.1526,1.0568,0.1028,0.0566,0.1304,8.7676,4.6949,15.8344,0.9571,0.8298,0.4437,0.7631,0.7414,0.1318,-0.4782,-0.541,0.4908

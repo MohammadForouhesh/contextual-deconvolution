@@ -1,0 +1,5 @@
+,wmape,wmape,variance_ratio,variance_ratio,rmse,rmse,inventory_cost,inventory_cost,safety_stock,safety_stock
+,mean,std,mean,std,mean,std,mean,std,mean,std
+method,,,,,,,,,,
+CD,1.0531,0.5826,0.0416,0.1904,6.1766,9.4522,39.2568,62.5242,0.6234,1.287
+XGBoost,1.1574,1.5938,0.685,1.7249,4.3834,6.4784,28.668,47.4526,2.6646,4.7973

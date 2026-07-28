@@ -1,0 +1,38 @@
+{
+  "foods": {
+    "spectral_radius": 0.9789270851308192,
+    "spectral_abscissa": 0.9789270851308192,
+    "numerical_abscissa": 1.9354302145226279,
+    "henrici_number": 0.36838670293308007,
+    "max_transient_growth": 8.30570345798418,
+    "max_transient_growth_lag": 20,
+    "n_eigenvalues": 30
+  },
+  "household": {
+    "spectral_radius": 0.9746427150783353,
+    "spectral_abscissa": 0.9746427150783353,
+    "numerical_abscissa": 1.5457683612294992,
+    "henrici_number": 0.16704917724827006,
+    "max_transient_growth": 6.89508455270702,
+    "max_transient_growth_lag": 20,
+    "n_eigenvalues": 30
+  },
+  "hobbies": {
+    "spectral_radius": 0.9655517403833189,
+    "spectral_abscissa": 0.9655517403833189,
+    "numerical_abscissa": 2.3725565846304066,
+    "henrici_number": 0.5691810763287484,
+    "max_transient_growth": 11.478394431974401,
+    "max_transient_growth_lag": 20,
+    "n_eigenvalues": 30
+  },
+  "global": {
+    "spectral_radius": 0.9749843849929913,
+    "spectral_abscissa": 0.9749843849929913,
+    "numerical_abscissa": 1.6458850717587534,
+    "henrici_number": 0.23482387139599273,
+    "max_transient_growth": 8.209210344354412,
+    "max_transient_growth_lag": 20,
+    "n_eigenvalues": 30
+  }
+}

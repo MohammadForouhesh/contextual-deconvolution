@@ -1,0 +1,39 @@
+{
+  "all_passed": false,
+  "tests": {
+    "kernel_recovery": {
+      "passed": "False",
+      "rel_error_tau1": 0.1688118005357796,
+      "rel_error_tau2": 0.6649578542188769,
+      "true_params": {
+        "alpha": 1.0,
+        "beta": 0.6,
+        "tau1": 2.0,
+        "tau2": 5.0
+      },
+      "est_params": "[0.5        0.49663911 1.6623764  1.67521073]",
+      "n_events": 14
+    },
+    "sparsity_improvement": {
+      "passed": true,
+      "sparsity_kernel": 91,
+      "sparsity_identity": 306,
+      "reduction_pct": 70.26143790849673
+    },
+    "variance_ratio": {
+      "passed": true,
+      "variance_ratio": 0.04059495427426587
+    },
+    "causality_matters": {
+      "passed": "False",
+      "test_rmse_causal": 6.057228334979384,
+      "test_rmse_noncausal": 6.057225178214611
+    },
+    "baseline_smoothness": {
+      "passed": true,
+      "smoothness_base": 11.332064554095503,
+      "smoothness_raw": 284.9721851204204,
+      "reduction_pct": 96.02344890280891
+    }
+  }
+}

@@ -1,0 +1,5 @@
+,wmape,wmape,wmape,variance_ratio,variance_ratio,variance_ratio,rmse,rmse,rmse,mae,mae,mae,inventory_cost,inventory_cost,inventory_cost,safety_stock,safety_stock,safety_stock
+,mean,std,median,mean,std,median,mean,std,median,mean,std,median,mean,std,median,mean,std,median
+method,,,,,,,,,,,,,,,,,,
+CD,1.0617,0.2958,1.0151,0.0182,0.1552,0.0008,1.8847,2.8113,1.034,1.2116,2.0642,0.6584,9.1288,15.3971,4.4822,0.0379,0.0676,0.0154
+XGBoost,1.8011,1.4886,1.2212,0.541,0.534,0.386,1.7978,2.4279,1.0237,1.3721,1.9671,0.7653,7.4589,11.5947,3.8683,0.5271,0.7369,0.2601
