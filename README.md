@@ -81,29 +81,27 @@ Robustness is further validated via calendar corruption, kernel misspecification
 
 ```
 .
-├── code/
-│   ├── run_paper.py                  # single-command orchestrator (see below)
-│   ├── requirements.txt
-│   ├── contextual_deconvolution/     # the library
-│   │   ├── core.py                   # operators, convex solvers (ISTA/CVXPY), kernel estimation
-│   │   ├── experiments.py            # evaluation framework, pooling, two-stream forecasting
-│   │   ├── baselines.py              # XGBoost, LightGBM, Prophet-like, STL+ARIMA, Croston/SBA
-│   │   ├── baselines_dl.py           # PatchTST, N-BEATS, DeepAR (PyTorch, optional)
-│   │   ├── loaders.py                # M5, Favorita, and Pandora dataset loaders
-│   │   ├── metrics.py                # wMAPE, MASE, RMSSE, VR, order variance, inventory cost
-│   │   ├── ablation.py               # identity / non-causal / misspecified-kernel ablations
-│   │   ├── falsification.py          # falsification tests on synthetic ground truth
-│   │   └── synthetic.py              # synthetic generators with known kernels
-│   ├── experiments/                  # 37 runnable experiment scripts
-│   ├── figures/                      # 8 figure-generation scripts
-│   ├── tests/                        # pytest suite (core operators, synthetic recovery)
-│   └── results/                      # numerical outputs (CSV/JSON)
+
+│── run_paper.py                  # single-command orchestrator (see below)
+│── requirements.txt
+│── contextual_deconvolution/     # the library
+│   ├── core.py                   # operators, convex solvers (ISTA/CVXPY), kernel estimation
+│   ├── experiments.py            # evaluation framework, pooling, two-stream forecasting
+│   ├── baselines.py              # XGBoost, LightGBM, Prophet-like, STL+ARIMA, Croston/SBA
+│   ├── baselines_dl.py           # PatchTST, N-BEATS, DeepAR (PyTorch, optional)
+│   ├── loaders.py                # M5, Favorita, and Pandora dataset loaders
+│   ├── metrics.py                # wMAPE, MASE, RMSSE, VR, order variance, inventory cost
+│   ├── ablation.py               # identity / non-causal / misspecified-kernel ablations
+│   ├── falsification.py          # falsification tests on synthetic ground truth
+│   └── synthetic.py              # synthetic generators with known kernels
+│── experiments/                  # 37 runnable experiment scripts
+│── figures/                      # 8 figure-generation scripts
+│── tests/                        # pytest suite (core operators, synthetic recovery)
+│── results/                      # numerical outputs (CSV/JSON)
 ├── data/                             # datasets (not tracked; see Data setup)
-├── followup/                         # exploratory work kept for follow-up papers
-└── paper/                            # LaTeX source, figures, compiled PDF
 ```
 
-`run_paper.py` auto-creates two compatibility symlinks (`code/data → ../data`, `code/paper → ../paper`) so scripts that resolve paths relative to their own location find the repository-root folders. No script is modified.
+`run_paper.py` auto-creates two compatibility symlinks (`data → ../data`, `paper → ../paper`) so scripts that resolve paths relative to their own location find the repository-root folders. No script is modified.
 
 The scripts behind the paper's main tables and figures are:
 
@@ -125,7 +123,7 @@ Requires **Python 3.9+**.
 git clone <repository-url>
 cd contexual-deconvolution
 python -m venv .venv && source .venv/bin/activate    # optional
-pip install -r code/requirements.txt
+pip install -r requirements.txt
 ```
 
 Core dependencies: `numpy`, `scipy`, `pandas`, `cvxpy`, `scikit-learn`, `matplotlib`, `seaborn`, `xgboost`, `statsmodels`, `tqdm`.
@@ -193,7 +191,7 @@ Scripts are discovered automatically and sorted, so the plan is deterministic. P
 
 ### Running individual experiments
 
-Scripts in `code/experiments/` are standalone and expose `argparse` interfaces. Representative examples:
+Scripts in `experiments/` are standalone and expose `argparse` interfaces. Representative examples:
 
 ```bash
 cd code
